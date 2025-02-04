@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Rose&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(245, 248, 255, 1);
+}
+#my-absolute-image img{
+    position: absolute;
+    top: 0;
+    z-index: -5;
+    width: 1100px;
+    height:900px;
+    left:8%;
+}
+
+
+#nav-links{
+    background: #ffffff;
+    padding: 12px 42px;
+    border-radius: 20px;
+}
+#nav-links a{
+    color: #8987A1;
+}
+
+#nav-links #home a{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-sign-up{
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Raleway", serif;
+    display: inline-block;
+}
+
+.btn-sign-in{
+    color: #8987A1;
+    background: none;
+    font-size: 16px;
+    border: none;
+    background: none;
+}
+.section-1{
+    margin-top: 99px;
+}
+
+#font-awesome{
+    font-size:65px;
+    margin-bottom: 2rem;
+    font-family: "Raleway", serif;
+    font-weight: bold;
+}
+
+#get-in-touch{
+    background: #252432;
+    padding: 1.13rem 3.62rem;
+    border-radius: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.icon-section-1{
+    background: #F5F8FF;
+    padding: 7px;
+    width: fit-content;
+}
+
+.section-2{
+    margin-top: 150px;
+}
+
+.section-2 p{
+    font-size: 12px;
+}
+
+
+#webflow{
+    background:#5B54FF ;
+}
+
+
+.custom{
+    width: 280px;
+    height: 252px;
+}
+
+.e-commerce-image img{
+    width: 210px;
+    height: 235px;
+}
+
+.our-work{
+    margin-top: 5rem;
+}
+
+#flexer, #flexer span{
+    display: flex;
+    justify-items: center;
+}
+
+.arrow-left, .arrow-right{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.our-work{
+    background-image: url('../img/straw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain ;
+    
+}
+
+.our-work-display{
+    width: 100vw;
+    border: 1px solid brown;
+}
+
+.my-border{
+    border: 2px solid red;
+}
+
+.left-display{
+    padding-top: 20px;
+    background: white;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.right-display{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 20px;
+    background: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.center-display{
+    padding-top: 20px;
+    background: white;
+}
+
+.rating{
+    background: white;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.rating p{
+    color: blue;
+}
+
+#pricing-details h2{
+    font-family: "Raleway", serif;
+    font-weight: bold;
+
+}
+
+#pricing-details p{
+    font-family: "Inter", serif;
+    font-size: 14px;
+}
+.pricing-service{
+    margin-top: 25px;
+}
+
+.schedule{
+    background: #ffffff;
+    width: fit-content;
+    padding: 26px 26px 20px 26px;
+    border-radius: 20px;
+}
+
+#schedule h1{
+      font-family: "Raleway", serif;
+      font-weight: bold;
+      font-size: 26px;
+}
+
+#schedule-btn{
+    background: #4E47FF;
+    padding:18px 88px ;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+#schedule-btn a{
+    font-family: "Raleway", serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+#service-tier{
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+#service-tier h1{
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+#tier-value{
+    background: #F5F8FF;
+    border-radius: 10px;
+    padding: 14px 25px;
+}
+
+#tier-value h1{
+    font-family: "Inter", serif;
+
+}
+
+#tier-value span{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+#request-tier p{
+    font-family: "Inter", serif;
+}
+
+.faq-left{
+    background-image: url('../img/spiral.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:500px ;
+
+}
+.faq{
+    margin-top: 40px;
+}
+#faq-body h1{
+    font-family: "Raleway", serif;
+    font-weight: bold;
+}
+.accordion-item{
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.accordion-item span{
+    font-weight: bold;
+}
+
+.test{
+    border:0px solid black;
+    margin-top:124px;
+  }
+  
+  .intouch{
+    font-family:Raleway,'sans serif';
+    font-size: 60px;
+    font-weight:700;
+    line-height: 72px;
+    border:0px solid black;
+  }
+  
+   .emailform{
+    width:699px;
+  }
+  
+  .formleft{
+    margin-left:372px;
+  }
+  
+  .form{
+    margin-top:71px;
+    border: 0px solid black;
+   
+    
+  }
+  .form label{
+    font-size:18px;
+    font-family:Inter,'sans serif';
+    font-weight: 700;
+    line-height: 21.6px;
+    margin-bottom: 8px;
+  
+  }
+  
+  .formspace{
+    margin-bottom:16px;
+    width:100%;
+  }
+  
+  .form input,.form textarea {
+      
+    border: 1px solid #D6DDED;
+    padding:20px 32px;
+    background-color: transparent;
+  
+  }
+  
+  .form input[placeholder]{
+    font-family:Inter;
+    font-weight: 400;
+    font-size:20px;
+  }
+  
+  .form input:focus,form input:focus,.form textarea:focus{
+    box-shadow: none;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+  
+  
+  .form textarea[placeholder]{
+    font-family:Inter;
+    font-weight: 400;
+    font-size:20px;
+  }
+  
+  .submitbtn{
+  
+    font-size: 16px;
+    font-weight:700 ;
+    line-height:24px;
+    font-family: Raleway,"sans serif";
+    background-color: #4E47FF;
+    margin-top:25px;
+    color:white;
+    padding: 19px;
+    border-radius:10px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  
+  }
+  
+  .submitbtn:hover {
+    background-color: #3b3aff; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .subform{
+    width: 50%;
+   
+  } 
+  
+  .footercontainer{
+  
+    margin-top:156px;
+    margin-bottom:200px;
+  }
+  
+  .footer{
+    min-height: 398px;
+    background:linear-gradient(121.9deg, #FFFFFF 0%, #F7F9FF 96.81%);
+    border-radius:40px;
+    border: 0px solid #D6DDED;
+    padding:84px 72px 78px;
+  }
+  
+  
+  
+  .colpad{
+    border:0px solid black;
+    
+  }
+  
+  #logotext{
+  
+    font-family: Raleway,"sans serif";
+    font-weight:600;
+    margin-left:5px;
+    font-size:25px;
+  }
+  
+  .footerlefttext{
+    margin-top:31px;
+    max-width:80%;
+    color:#8987A1;
+    font-family: Inter,'sans serif';
+    font-weight: 400;
+    line-height: 24px;
+    font-size:16px;
+  
+  }
+  
+  .miniframe{
+    margin-top:61px;
+  }
+  
+  #madewith{
+    margin-left:8px;
+    color:#8987A1;
+    font-family: Inter,'sans serif';
+    font-weight: 400;
+    line-height: 24px;
+    font-size:16px;
+  }
+  
+  
+  .footerlinks{
+    border: 0px solid black;
+    margin-top:105px;
+  }
+  
+  
+  .footerlinks a{
+    text-decoration: none;
+    font-size:16px;
+    font-family: Inter,'sans serif';
+    color:#8987A1;
+   
+  
+  }
+  
+
+@media (max-width: 768px){
+    #my-absolute-image img{
+        position: absolute;
+        top: 0;
+        z-index: -5;
+        width: 600px;
+        height:800px;
+
+    }
+    #nav-links{
+        background:none;
+        padding: 12px 42px;
+        border-radius: 20px;
+    }
+    .medium{
+        flex-direction: column;
+        display: inline-block;
+    }
+    .btn-sign-up, .btn-sign-in{
+        display: inline;
+        width: fit-content;
+        margin: 4px;
+    }
+    .rating{
+        width: 60%;
+    }
+    
+    .schedule {
+        margin-bottom: 20px;
+    }
+    }
+
+    @media (max-width: 425px){
+        #my-absolute-image img{
+            position: absolute;
+            top: 0;
+            z-index: -5;
+            width: 450px;
+            height:800px;
+    
+        }
+        #nav-links{
+            background:none;
+            padding: 12px 42px;
+            border-radius: 20px;
+        }
+        .medium{
+            flex-direction: column;
+            display: inline-block;
+        }
+        .btn-sign-up, .btn-sign-in{
+            display: inline;
+            width: fit-content;
+            margin: 4px;
+        }
+        .rating{
+            width: 60%;
+        }
+        
+        .schedule {
+            margin-bottom: 20px;
+        }
+        .e-commerce-image{
+            border: 1px solid red;
+            display: none;    
+        }
+        .rating{
+            width: 100%;
+            display: block;
+            border: 1px solid brown;
+            
+        }
+        .faq-left{
+            text-align: center;
+            justify-content: center;
+        }
+        #webflow{
+            border: 1px solid blue;
+        }
+        }
