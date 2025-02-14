@@ -129,13 +129,11 @@ body{
     
 }
 
+.carousel-item img{
+    height: 600px;
+}
 .our-work-display{
     width: 100vw;
-    border: 1px solid brown;
-}
-
-.my-border{
-    border: 2px solid red;
 }
 
 .left-display{
